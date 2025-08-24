@@ -1,4 +1,4 @@
-# node_modules を無視
+# node_modules を無視 非公開
 node_modules/
 
 # ログファイルを無視
@@ -6,6 +6,9 @@ node_modules/
 
 # 環境変数ファイルを無視
 .env
+
+# user.passwordファイルを非公開
+users.htpasswd
 
 # ビルド成果物を無視
 dist/
@@ -17,3 +20,9 @@ yarn.lock
 
 text:adminPassword
 sQLkP1Tas1XZ
+guest1 1234
+guset2 4567
+
+guest1:$2a$05$ApA/02MnvZYVRfjUX.DRJ.DArhZYwekdJ3vta2PC21dFVGsrViOPq
+guest2:$2a$05$sinjScUca3HaeB7ldEJ2n..jiquRkwF/iWHDAthIgKAwrBRzxqGvW
+admin:$2a$05$/1MPrveCQD.PPs8M4jgNfuoSb4S8ynY98amac1i3L9JsJ4VgRJKqK
