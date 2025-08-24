@@ -14,3 +14,6 @@ build/
 yarn.lock
 
 /lib/generated/prisma
+
+text:adminPassword
+sQLkP1Tas1XZ

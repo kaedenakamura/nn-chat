@@ -19,6 +19,6 @@ services:
       - "5432:5432"
     volumes:
       - ../nn-chat-db:/var/lib/postgresql/data
-
+      
 volumes:
-  node_modules:
+ node_modules:
